@@ -1,0 +1,12 @@
+.img {
+    width: 215px;
+    height: 300px;
+    object-fit: cover; /* обрезает лишнее и сохраняет пропорции */
+    border-radius: 8px; /* по желанию */
+    transition: transform 0.2s;
+    margin: 4px;
+}
+
+.img:hover {
+    transform: scale(1.03);
+}

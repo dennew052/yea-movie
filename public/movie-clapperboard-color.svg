@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none">
+  <!-- Корпус хлопушки -->
+  <rect x="10" y="22" width="44" height="28" rx="6" ry="6" fill="#FF6F61" stroke="#D94338" stroke-width="2"/>
+  
+  <!-- Полосы на хлопушке -->
+  <rect x="14" y="24" width="8" height="6" fill="#FFF"/>
+  <rect x="26" y="24" width="8" height="6" fill="#FFF"/>
+  <rect x="38" y="24" width="8" height="6" fill="#FFF"/>
+  
+  <!-- Верхняя часть хлопушки -->
+  <polygon points="10,22 32,10 54,22" fill="#6C63FF" stroke="#4B44D1" stroke-width="2" />
+  
+  <!-- Тени и блики -->
+  <circle cx="22" cy="40" r="3" fill="#D94338" opacity="0.3"/>
+  <circle cx="42" cy="40" r="3" fill="#D94338" opacity="0.3"/>
+</svg>
