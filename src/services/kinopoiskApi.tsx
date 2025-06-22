@@ -5,7 +5,7 @@ const kinopoiskApiKey = import.meta.env.VITE_KINOPOISK_KEY;
 export const kinopoiskApi = createApi({
   reducerPath: 'kinopoiskApi',
   baseQuery: fetchBaseQuery({
-    baseUrl: 'https://kinopoiskapiunofficial.tech/api',
+    baseUrl: import.meta.env.VITE_API_BASE_URL,
     prepareHeaders: (headers) => {
       headers.set('Accept', 'application/json');
       headers.set('X-API-KEY', kinopoiskApiKey);
